@@ -74,6 +74,14 @@
     text-align: center;
 }
 
+
+@media screen and (max-width: 1600px){
+    .actions-content {
+        max-width: 83%;
+    }
+}
+
+
 @media screen and (max-width: 1200px){
     .section-title.red-text{
         line-height: 1;
