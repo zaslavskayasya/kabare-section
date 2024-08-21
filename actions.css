@@ -1,0 +1,127 @@
+.action-section{
+    margin: 20px 0px;
+
+}
+
+.white-background{
+    background-color: #fff;
+    padding: 90px 50px 90px; 
+}
+
+.section-title.red-text{
+    color: #BD1D1D;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 40px;;
+    text-transform: uppercase;
+}
+
+.actions-content{
+    max-width: 75%;
+    margin: 0 auto 100px;;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.actions-item{
+    &:nth-child(1){
+        background-color: #F17F7F;
+    }
+    &:nth-child(2){
+        background-color: #ED494A;
+    }
+    &:nth-child(3){
+        background-color: #EE3834;
+    }
+    &:nth-child(4){
+        background-color: #CD302B;
+    }
+    &:nth-child(5){
+        background-color: #9B211E;
+    }
+    border-radius: 100%;
+    width: 154px;
+    height: 154px;
+    display: flex;;
+    /* background-color: #BD1D1D; */
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 15px;
+    
+    align-items: center;
+    flex-direction: column;
+
+    margin: 15px 30px;
+}
+.sale-size{
+    font-size: 43px;  
+    margin-bottom: 8px;
+    font-weight: 800;  
+}
+.sale-sum{
+    font-size: 24px;
+    line-height: 0.8;
+    font-weight: 200;
+}
+.sale-val{
+    font-size: 24px;
+    line-height: 0.8;
+}
+
+.action-sub{
+    color: #BD1D1D;
+    font-size: 36px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+    .section-title.red-text{
+        line-height: 1;
+        font-size: 32px;
+        margin-bottom: 30px;;
+    }
+    .actions-item {
+        width: 124px;
+        height: 124px;
+        margin: 15px 10px;
+    }
+    .sale-size {
+        font-size: 27px;
+    }
+    .sale-sum, .sale-val {
+        font-size: 23px;
+    }
+
+    .action-sub{
+        font-size: 30px;;
+    }
+}
+
+
+
+
+@media screen and (max-width: 760px){
+    .section-title.red-text{
+        line-height: 1;
+        font-size: 28px;
+        margin-bottom: 30px;;
+    }
+    .actions-item {
+        width: 104px;
+        height: 104px;
+        margin: 15px 10px;
+    }
+    .sale-size {
+        font-size: 23px;
+    }
+    .sale-sum, .sale-val {
+        font-size: 17px;
+    }
+    .actions-content {
+        max-width: 100%;
+        margin: 0 auto 50px;
+    }
+    .action-sub{
+        font-size: 28px;;
+    }
+}
