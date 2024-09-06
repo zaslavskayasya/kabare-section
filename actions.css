@@ -127,12 +127,12 @@
 @media screen and (max-width: 860px){
     .white-background {
         background-color: #fff;
-        padding: 90px 10px 90px;
+        padding: 40px 10px 40px;
     }
     .section-title.red-text{
         line-height: 1;
-        font-size: 28px;
-        margin-bottom: 30px;;
+        font-size: 20px;
+        margin-bottom: 25px;;
     }
     .actions-item {
         width: 60px!important;
@@ -148,10 +148,10 @@
     }
     .actions-content {
         max-width: 100%;
-        margin: 0 auto 50px;
+        margin: 0 auto 20px;
     }
     .action-sub{
-        font-size: 28px;;
+        font-size: 20px;;
     }
 }
 
