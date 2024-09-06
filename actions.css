@@ -21,7 +21,8 @@
     margin: 0 auto 100px;;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-flow: wrap;
+
 }
 .actions-item{
     &:nth-child(1){
@@ -40,8 +41,8 @@
         background-color: #9B211E;
     }
     border-radius: 100%;
-    width: 154px;
-    height: 154px;
+    width: 154px!important;
+    height: 154px!important;
     display: flex;;
     /* background-color: #BD1D1D; */
     justify-content: center;
@@ -79,6 +80,21 @@
     .actions-content {
         max-width: 83%;
     }
+    .actions-item {
+        border-radius: 100%;
+        width: 120px!important;
+        height: 120px !important;
+        margin: 14px 15px;
+    }
+    .sale-size {
+        font-size: 34px;
+    }
+    .sale-sum {
+        font-size: 20px;
+    }
+    .sale-val {
+        font-size: 19px;
+    }
 }
 
 
@@ -89,15 +105,15 @@
         margin-bottom: 30px;;
     }
     .actions-item {
-        width: 124px;
-        height: 124px;
+        width: 100px!important;
+        height: 100px!important;
         margin: 15px 10px;
     }
     .sale-size {
-        font-size: 27px;
+        font-size: 24px;
     }
     .sale-sum, .sale-val {
-        font-size: 23px;
+        font-size: 18px;
     }
 
     .action-sub{
@@ -108,22 +124,27 @@
 
 
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 860px){
+    .white-background {
+        background-color: #fff;
+        padding: 90px 10px 90px;
+    }
     .section-title.red-text{
         line-height: 1;
         font-size: 28px;
         margin-bottom: 30px;;
     }
     .actions-item {
-        width: 104px;
-        height: 104px;
-        margin: 15px 10px;
+        width: 60px!important;
+        height: 60px!important;
+        margin: 15px 5px;
     }
     .sale-size {
-        font-size: 23px;
+        font-size: 16px;
+        margin-bottom: 3px;
     }
     .sale-sum, .sale-val {
-        font-size: 17px;
+        font-size: 13px;
     }
     .actions-content {
         max-width: 100%;
@@ -132,4 +153,20 @@
     .action-sub{
         font-size: 28px;;
     }
+}
+
+@media screen and (max-width: 400px){
+    .actions-item {
+        width: 50px!important;
+        height: 50px!important;
+        margin: 15px 5px;
+    }
+    .sale-size {
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+    .sale-sum, .sale-val {
+        font-size: 11px;
+    }
+
 }
